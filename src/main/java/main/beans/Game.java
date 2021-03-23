@@ -32,7 +32,7 @@ public class Game
 		String spock = "spock";
 		String lizard = "lizard";
 		String paper = "paper";
-		String winner = "";
+		String winner = "this is the winner";
 		
 		if (player == scissors)
 		{

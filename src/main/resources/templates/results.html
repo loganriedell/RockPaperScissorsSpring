@@ -3,7 +3,7 @@
 <body>
 	<p th:text="'You selected ' + ${game.player1} + '.'"/>
 	<p th:text="'Computer selected ' + ${game.computerPlayer} + '.'"/>
- 	<p th:text="'The winner was ' + ${gameWinner} + '.'"/>
+ 	<p th:text="'The winner was ' + ${game.winner} + '.'"/>
  
  	<p>Thanks for playing. Play again?</p>
  	<a href="/playagame?choice=rock">rock</a>
